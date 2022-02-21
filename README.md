@@ -36,31 +36,3 @@ console.log(myCollection.remove("gra"));
 // remove entire db
 console.log(myCollection.remove());
 ```
-
-### Need help?
-
-Please [post a question][20] on Stack Overflow. **This is the preferred method.**
-
-You can also chat with folks on the [Slack Channel][21]. If you end up getting
-your question answered, please still consider consider posting your question to
-Stack Overflow (then possibly answering it yourself). Thanks!
-
-### Want to contribute?
-
-Awesome! You can get started over at the [Contributing guide][22].
-
-And thank you!
-
-### License
-
-[The MIT License (MIT)][23]
-
-Copyright (c) 2014-2017 [js-data project authors][24]
-
-[18]: http://www.js-data.io/docs/home
-[19]: http://api.js-data.io/
-[20]: http://stackoverflow.com/questions/tagged/jsdata
-[21]: http://slack.js-data.io/
-[22]: https://github.com/js-data/local-storage-database/blob/master/.github/CONTRIBUTING.md
-[23]: https://github.com/js-data/local-storage-database/blob/master/LICENSE
-[24]: https://github.com/js-data/local-storage-database/blob/master/AUTHORS
