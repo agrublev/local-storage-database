@@ -10,6 +10,11 @@ __Local Storage Database consistency with objects.__
 Simple class to store data and manage it easily.
 
 ### Just getting started?
+
+Checkout example on codesandbox:
+
+[![Edit local-storage-database](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/divine-haze-ikvh9t?fontsize=14&hidenavigation=1&theme=dark)
+
 Import module:
 ```javascript
 import Collection from "../release/localDatabase";

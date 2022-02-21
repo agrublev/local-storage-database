@@ -1,16 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8" />
+        <title>Parcel</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <title>Parcel</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-<p>Hello world! This is HTML5 Boilerplate.</p>
-<script src="js/main.js"></script>
-</body>
-
+    <body>
+        <style>
+            .images {
+                position: relative;
+                width: 200px;
+                height: 150px;
+            }
+            .images img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 200px;
+                height: 150px;
+            }
+            .wrap {
+                display: flex;
+                flex-wrap: wrap;    position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                overflow: auto;
+                z-index: 99999;
+            }
+            .rating {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+                background: white;
+                color: black;
+                padding: 3px;
+                font-size: 16px;
+            }
+        </style>
+        <div class="wrap"></div>
+        <script src="js/main.js"></script>
+    </body>
 </html>
